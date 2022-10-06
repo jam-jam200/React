@@ -1,13 +1,10 @@
 import "./App.css";
-import ClickCounter from "./Components/ClickCounter";
-import HoverCounter from "./Components/HoverCounter";
-
+import PostList from "./Components/PostList";
 
 function App() {
   return (
     <div className="App">
-      <ClickCounter />
-      <HoverCounter />
+      <PostList />
     </div>
   );
 }
